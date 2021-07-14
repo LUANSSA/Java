@@ -44,11 +44,11 @@ public class TiposPrimitivos{
         não possui nenhum tipo de pendencia.
     */
     
-    String nome = "Luan";
+    String pessoa = "Luan";
     String endereco = "Rua Professor Aristides Novis";
     String telefone = "(71) 9 3333 - 3333";
     
-    System.out.println("O "+nome+" domiciliado no endereco "+endereco+" e telephone "+
+    System.out.println("O "+pessoa+" domiciliado no endereco "+endereco+" e telephone "+
                       telefone+" não possui nenhum tipo de pendência");
     
   }
