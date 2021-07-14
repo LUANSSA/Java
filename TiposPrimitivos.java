@@ -3,21 +3,21 @@ public class TiposPrimitivos{
   public static void main(String[] args){
     
     
-    //int 
+    //int - 32 bytes de precisao
     int idade = 24;
-    //double
+    //double - 64 bytes de precisao
     double saldoBancario = 401.04;
-    //float
+    //float - 32 bytes de precisão
     float  altura = 170f;
-    //boolean
+    //boolean - aceita verdadeiro ou falso ( true or false )
     boolean trabalha = true;
-    //char
+    //char - 16 bytes de precisao
     char sexo = "M";
     //byte aceita números inteiros até o valor máximo 127
     int qtDedosNasMaos = 10;
-    //short
+    //short - 16 bytes de precisao
     short qtDedosNosPes = 10;
-    //long
+    //long - 64 bytes de precisao
     long numeroGrande = 10000L;
     //String
     String nome = "Luan";
