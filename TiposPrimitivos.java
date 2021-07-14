@@ -35,7 +35,21 @@ public class TiposPrimitivos{
     System.out.println("Numero grade: "+numeroGrande);
     
     //********** EXERCÍCIO **********
+    /*
+      Crie um algoritmo que possua variaveis para salvar os seguintes dados:
+        Nome, Endereço e Telefone de uma pessoa
+      
+      Imprima essas variaveis da seguinte forma:
+        0 <nome> domiciliado no endereco <endereco> e telephone <telefone>
+        não possui nenhum tipo de pendencia.
+    */
     
+    String nome = "Luan";
+    String endereco = "Rua Professor Aristides Novis";
+    String telefone = "(71) 9 3333 - 3333";
+    
+    System.out.println("O "+nome+" domiciliado no endereco "+endereco+" e telephone "+
+                      telefone+" não possui nenhum tipo de pendência");
     
   }
 }
