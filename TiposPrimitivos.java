@@ -13,7 +13,7 @@ public class TiposPrimitivos{
     //boolean - aceita verdadeiro ou falso ( true or false )
     boolean trabalha = true;
     //char - 16 bytes de precisao
-    char sexo = "M";
+    char sexo = 'M';
     //byte aceita números inteiros até o valor máximo 127
     int qtDedosNasMaos = 10;
     //short - 16 bytes de precisao
