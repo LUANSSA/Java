@@ -2,6 +2,7 @@ public class TiposPrimitivos{
 
   public static void main(String[] args){
     
+    //********* TIPOS PRIMITIVOS **********
     
     //int - 32 bytes de precisao
     int idade = 24;
@@ -22,7 +23,7 @@ public class TiposPrimitivos{
     //String
     String nome = "Luan";
     
-    
+    //IMPRIMINDO
     System.out.println("Nome: "+nome);
     System.out.println("Idade: "+idade);
     System.out.println("Altura: "+altura);
@@ -32,5 +33,9 @@ public class TiposPrimitivos{
     System.out.println("Quantidade de dedos nas Mãos: "+qtDedosNasMaos);
     System.out.println("Quantidade de dedos nos Pés: "+qtDedosNosPes);
     System.out.println("Numero grade: "+numeroGrande);
+    
+    //********** EXERCÍCIO **********
+    
+    
   }
 }
