@@ -24,6 +24,7 @@ public class TiposPrimitivos{
     String nome = "Luan";
     
     //IMPRIMINDO
+    System.out.println("********* EXERCÍCIO 1 **********");
     System.out.println("Nome: "+nome);
     System.out.println("Idade: "+idade);
     System.out.println("Altura: "+altura);
@@ -40,16 +41,40 @@ public class TiposPrimitivos{
         Nome, Endereço e Telefone de uma pessoa
       
       Imprima essas variaveis da seguinte forma:
-        0 <nome> domiciliado no endereco <endereco> e telephone <telefone>
-        não possui nenhum tipo de pendencia.
+        "0 <nome> domiciliado no endereco <endereco> e telephone <telefone>
+        não possui nenhum tipo de pendencia."
     */
     
     String pessoa = "Luan";
     String endereco = "Rua Professor Aristides Novis";
     String telefone = "(71) 9 3333 - 3333";
     
+    System.out.println("********* EXERCÍCIO 2 **********");
     System.out.println("O "+pessoa+" domiciliado no endereco "+endereco+" e telephone "+
                       telefone+" não possui nenhum tipo de pendência");
     
+
+    //********** EXERCÍCIO **********
+    /*
+	Crie um algoritmo que possua as variáveis nome, salário, sexo(M ou F),
+	idade e estado civil.
+	
+	Imprima da seguinte forma:
+	 "O trabalhador(a) <nome> do sexo <sexo>, idade <idade>, estado civil
+	 <estadoCivil> e salario <salario> encontra-se empregado neste estabe
+	 lecimento."
+    */
+
+     String nomePessoa = "Nicole";
+     double salarioPessoa = 8000;
+     char sexoPessoa = 'F';
+     byte idadePessoa = 20;
+     String estadoCivil = "solteira";
+     
+     System.out.println("********* EXERCÍCIO 3 **********");
+     System.out.println("O trabalhador(a) "+nomePessoa+" do sexo "+sexoPessoa+
+			", idade "+idadePessoa+", estado civil "+estadoCivil+
+			" e salario "+salarioPessoa+" econtra-se empregado(a) neste"+
+			" estabelecimento");
   }
 }
