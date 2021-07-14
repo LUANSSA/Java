@@ -56,13 +56,13 @@ public class TiposPrimitivos{
 
     //********** EXERCÍCIO **********
     /*
-	Crie um algoritmo que possua as variáveis nome, salário, sexo(M ou F),
-	idade e estado civil.
+      Crie um algoritmo que possua as variáveis nome, salário, sexo(M ou F),
+      idade e estado civil.
 	
-	Imprima da seguinte forma:
-	 "O trabalhador(a) <nome> do sexo <sexo>, idade <idade>, estado civil
-	 <estadoCivil> e salario <salario> encontra-se empregado neste estabe
-	 lecimento."
+      Imprima da seguinte forma:
+	"O trabalhador(a) <nome> do sexo <sexo>, idade <idade>, estado civil
+	<estadoCivil> e salario <salario> encontra-se empregado neste estabe
+	lecimento."
     */
 
      String nomePessoa = "Nicole";
