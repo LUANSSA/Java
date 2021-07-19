@@ -26,7 +26,6 @@ public class ControleDeFluxo{
 		else{
 			System.out.println("Adulto");
 		}
-
 		
 	}
 }
