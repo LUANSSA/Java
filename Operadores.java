@@ -21,6 +21,32 @@ public class Operadores{
 		System.out.println("Decrement: "+(--n1));
 		System.out.println("Decrement: "+(n1--));
 		System.out.println("Post Decrement: "+n1);
+		//Somando
+		System.out.println(n1+" + "+n1+" = "+(n1+n1));
+		//Subtraindo
+		System.out.println(n1+" - "+n1+" = "+(n1-n1));
+		//Multiplicando
+		System.out.println(n1+" * "+n1+" = "+(n1*n1));
+		//Dividindo
+		System.out.println(n1+" / "+n1+" = "+(n1/n1));
+		//Cast
+		System.out.println(n1+" *= "+1.2+" = "+(n1*=1.2));
+		System.out.println((n1-=2)+" *= (cast)"+1.2+" = "+(n1*=(int)1.2));
+
+		//Operadores de atribuição
+		// =	recebe e substitui
+		// -=	recebe e subtrai
+		// +=	recebe e soma
+		// *=	recebe e multiplica
+		// /=	recebe e divide
+		// %=	recebe o resto da divisão
+		System.out.println(n1+" = "+4+" igual a "+(n1=4));
+		System.out.println(n1+" -= "+4+" igual a "+(n1-=4));
+		System.out.println(n1+" += "+4+" igual a "+(n1+=4));
+		System.out.println(n1+" *= "+4+" igual a "+(n1*=4));
+		System.out.println(n1+" /= "+4+" igual a "+(n1/=4));
+		System.out.println(n1+" %= "+4+" igual a "+(n1%=4));
+
 		
 	}
 }
