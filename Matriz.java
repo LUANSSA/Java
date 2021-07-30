@@ -1,15 +1,14 @@
 public static void main(String[] args){
   double[][] notas = {{1,2,3,4},{5,6,7,8},{9,10,11,12}};
-  
-	System.out.println(notas[0][0]);
-	System.out.println(notas[0][1]);
-	System.out.println(notas[0][2]);
-	System.out.println(notas[0][3]);
+  System.out.println(notas[0][0]);
+  System.out.println(notas[0][1]);
+  System.out.println(notas[0][2]);
+  System.out.println(notas[0][3]);
 		
-	System.out.println(notas[1][0]);
-	System.out.println(notas[1][1]);
-	System.out.println(notas[1][2]);
-	System.out.println(notas[1][3]);
+  System.out.println(notas[1][0]);
+  System.out.println(notas[1][1]);
+  System.out.println(notas[1][2]);
+  System.out.println(notas[1][3]);
   
   String[][] nomes = new nomes[3][4];
   nomes[0][0] = "Luan";
@@ -27,15 +26,15 @@ public static void main(String[] args){
   nomes[2][2] = "Jaim";
   nomes[2][3] = "Lucan";
 		  
-	System.out.println(nomes[0][0]);
-	System.out.println(nomes[0][1]);
-	System.out.println(nomes[0][2]);
-	System.out.println(nomes[0][3]);
+  System.out.println(nomes[0][0]);
+  System.out.println(nomes[0][1]);
+  System.out.println(nomes[0][2]);
+  System.out.println(nomes[0][3]);
 		
-	System.out.println(nomes[1][0]);
-	System.out.println(nomes[1][1]);
-	System.out.println(nomes[1][2]);
-	System.out.println(nomes[1][3]);
+  System.out.println(nomes[1][0]);
+  System.out.println(nomes[1][1]);
+  System.out.println(nomes[1][2]);
+  System.out.println(nomes[1][3]);
 
   
   
