@@ -8,6 +8,7 @@ public static void main(String[]
     listaNotasMatematica.add(5.5f);
 		  
     System.out.println(listaNotasMatematica.toString());
+    //Verficiando se contém o valor 7.0f na listaNotasMatematica
     System.out.println(listaNotasMatematica.contains(7.0f));
     //Instânciando listaTeste
     ArrayList listaTeste = new ArrayList();
