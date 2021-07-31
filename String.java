@@ -29,5 +29,7 @@ public static void main(String[] args) {
 		System.out.println(vet[1]);
 		System.out.println(vet[2]);
 		System.out.println(vet[3]);
+		double num = 4.5f;
+		System.out.println(String.format("%.2f",num));
 		scanner.close();
 }
