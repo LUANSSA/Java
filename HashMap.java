@@ -21,6 +21,20 @@ public static void main(String[] args){
   System.out.println(nota.toString());
   //{Luan=9.6, July=10.0}
   
+  System.out.println(nota.containsKey("Luan"));
+  //true
+	System.out.println(nota.containsKey("Luca"));
+	//false
+	for(String chave: nota.keySet()) {
+	  System.out.println(chave);
+    //Luan
+    //July
+	}
+	for(String chave: nota.keySet()) {
+	  System.out.println(nota.get(chave));
+	  //9.6
+    //10.0
+  }
   
   
 }
