@@ -29,12 +29,12 @@ public static void main(String[] args){
    System.out.println(chave);
    //Luan
    //July
-   }
-   for(String chave: nota.keySet()) {
-    System.out.println(nota.get(chave));
-    //9.6
-    //10.0
-   }
+  }
+  for(String chave: nota.keySet()) {
+   System.out.println(nota.get(chave));
+   //9.6
+   //10.0
+  }
   
   
 }
