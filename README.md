@@ -74,3 +74,61 @@ public class Index {
 	}
 }
 
+	package application;
+import models.Funcionario;
+import models.Aluno;
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		ArrayList<Funcionario> funcionarios = new ArrayList<Funcionario>();
+		funcionarios.add(new Funcionario());
+		funcionarios.add(new Funcionario());
+		funcionarios.get(0).setNome(sc.nextLine());
+		funcionarios.get(0).setSalarioBruto(sc.nextDouble());
+		funcionarios.get(0).setImposto(sc.nextDouble());
+		
+		System.out.println(funcionarios.get(0).toString());
+		System.out.println("which percentage to increase salary?");
+		funcionarios.get(0).setUpdateSalarioBruto(sc.nextDouble());
+		
+		
+		sc.nextLine();
+		
+		funcionarios.get(1).setNome(sc.nextLine());
+		funcionarios.get(1).setSalarioBruto(sc.nextDouble());
+		funcionarios.get(1).setImposto(sc.nextDouble());
+		System.out.println(funcionarios.get(1).toString());
+
+		System.out.println("which percentage to increase salary?");
+		funcionarios.get(1).setUpdateSalarioBruto(sc.nextDouble());
+
+		System.out.println(funcionarios.get(0).toString());
+
+		System.out.println(funcionarios.get(1).toString());
+		
+		ArrayList<Aluno> alunos = new ArrayList<Aluno>();
+		alunos.add(new Aluno());
+		alunos.add(new Aluno());
+		sc.nextLine();
+		System.out.println("Digite o Aluno e suas 3 notas");
+		alunos.get(0).setNome(sc.nextLine());
+		alunos.get(0).setNotas(sc.nextDouble());
+		alunos.get(0).setNotas(sc.nextDouble());
+		alunos.get(0).setNotas(sc.nextDouble());
+		sc.nextLine();
+		System.out.println("Digite o Aluno e suas 3 notas");
+		alunos.get(1).setNome(sc.nextLine());
+		alunos.get(1).setNotas(sc.nextDouble());
+		alunos.get(1).setNotas(sc.nextDouble());
+		alunos.get(1).setNotas(sc.nextDouble());
+		
+		System.out.println(alunos.get(0).toString());
+		System.out.println(alunos.get(1).toString());
+	}
+}
+
