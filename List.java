@@ -116,6 +116,48 @@ public class Main {
 	    //Filtrando primeiro nome com inicial não contida na list 'U'
 	    name = (String) list.stream().filter(x ->((String) x).charAt(0) == 'U').findFirst().orElse(null);
 	    System.out.println("Primeiro nome encontrado o a letra 'U': "+ name);
+		
+		
+	    /*
+	    	//EXEMPLO DE list<Funcionario> list = new ArrayList();
+		
+		
+		Employee emp = list.stream().filter(x -> x.getId() == idsalary).findFirst().orElse(null);
+	    	
+		if (emp == null) {
+			System.out.println("This id does not exist!");
+		}
+		else {
+			System.out.print("Enter the percentage: ");
+			double percent = sc.nextDouble();
+			//list.get(pos).increaseSalary(percent);
+			emp.increaseSalary(percent);
+		}
+		
+		System.out.println();
+		System.out.println("List of employees:");
+		for (Employee e : list) {
+			System.out.println(e);
+		}		
+	    
+	    */
 	}
+	/*
+		//EXEMPLO DE list<Funcionario> list = new ArrayList();
+	public static Integer position(List<Employee> list, int id) {
+		for (int i = 0; i < list.size(); i++) {
+			if (list.get(i).getId() == id) {
+				return i;
+			}
+		}
+		return null;
+	}
+	
+	public static boolean hasId(List<Employee> list, int id) {
+		Employee emp = list.stream().filter(x -> x.getId() == id).findFirst().orElse(null);
+		return emp != null;
+	}
+	
+	*/
 }
 
