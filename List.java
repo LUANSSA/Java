@@ -121,7 +121,7 @@ public class Main {
 	    /*
 	    	//EXEMPLO DE list<Funcionario> list = new ArrayList();
 		
-		
+		//o FILTER retorna mais de um elemento...com o findFrist irá retornar o primeiro caso exista
 		Employee emp = list.stream().filter(x -> x.getId() == idsalary).findFirst().orElse(null);
 	    	
 		if (emp == null) {
