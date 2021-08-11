@@ -34,3 +34,19 @@ public class AlunoEspecial extends Aluno(){
     return this.especialidade;
   }
 }
+
+public static void main(String[] args){
+    
+    ///aluno0 terá todos os atributos e métodos da classe Aluno
+    Aluno aluno0 = new Aluno();
+    //aluno1 terá todas os atributos e métodos da classe Aluno
+    //mais os atributos e métodos da classe AlunoEspecial
+    AlunoEspecial aluno1 = new AlunoEspecial();
+    
+    ///aluno0 terá todos os atributos e métodos da classe Aluno
+    //aluno2 teŕa todos os atributos e métodos da classe Aluno
+    //mais os atributos da calsse AlunoEspecial
+    //porém os métodos de aluno2 que referem a classe AlunoEspecial
+    //só podem ser chamandos quando são Override da classe pai
+    aluno aluno2 = new AlunoEspecial();
+}
