@@ -22,8 +22,13 @@ public class Escola(){
   public static String getMensalidade(){
     /*
       //erro pois this.semalidade é uma variável não static e métodos estáticos
-      //só se relacionam com atributos static
+      //Métodos static se relacionam com atributos static
       return this.mensalidade;
+    */
+    /*
+      //erro pois this.semalidade é uma variável não static e métodos estáticos
+      //Métodos static se relacionam com atributos static
+      return mensalidade;
     */
   }
   
