@@ -30,6 +30,7 @@ public class Escola(){
       //Métodos static se relacionam com atributos static
       return mensalidade;
     */
+    return "";
   }
   
 }
