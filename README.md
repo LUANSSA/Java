@@ -132,3 +132,10 @@ public class Main {
 	}
 }
 
+	
+	
+//ATALHOS ECLIPSE
+	alt + ceta para o lado : ajuda ao navegar nas janelas
+	ctrl+shift+o : importa automaticamente
+	ctrl+q : volta no código na última alteração feita
+	seleciona linhas + alt + seta para cima ou para baixo: move linhas de código ou bloco de linhas
