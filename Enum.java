@@ -1,5 +1,6 @@
 //Order lifecycle : PendingPayment - Processing - Shipped - Delivered 
 
+/*
 package entities.enums;
 public enum OrderStatus{
 PENDING_PAYMENT,
@@ -7,7 +8,7 @@ PROCESSING,
 SHIIPPED,
 DELIVERED;
 }
-
+*/
 package entities;
 
 import java.util.Date;
@@ -44,4 +45,16 @@ public class Order{
   public void setOrderStatus(OrderStatus status){
     this.OrderStatus = status;
   }
+  
+  public String toString(){
+    return "Order [id="+this.getId()+", moment="+this.getDate()+", status="+this.getOrderStatus()+"]";
+  }
 }
+
+/*
+public static void main(String[] args){
+  Order order = new Order(1080, new Date(), OrderStatus.PENDING_PAYMENT);
+  System.out.println(order);
+}
+
+*/
