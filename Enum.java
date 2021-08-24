@@ -55,6 +55,9 @@ public class Order{
 public static void main(String[] args){
   Order order = new Order(1080, new Date(), OrderStatus.PENDING_PAYMENT);
   System.out.println(order);
+  
+  OrderStatus os1 = OrderStatus.PAINDING_PAYMENT;
+  OrderStatus 0s2 = OrderStatus.valueOf("PAINDING_PAYMENT");
 }
 
 */
